@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+//   crud
+// create read update delete
+// let a='ash "w" ini';
+//  console.log(a.length);
+//  for(i=0;i<a.length;i++){
+//     console.log(a[i]);
+//  }
+// --------------------------------
+//  let a='ash "w" ini';
+//  console.log(a.length);
+//  while(i<a.length){
+//     if(a%2==0){
+
+//     }
+//     console.log(a[i]);
+//  }
+// ------------------------------------------
+
+// conversions
+
+// number()
+// let a="1.5";
+// console.log(Number(a));
+// boolean()
+// let x="hello";
+// console.log(Boolean(x));
+// let y="";
+// console.log(Boolean(y));
+
+// string()
+// tostring()
+// let a="hello";
+// console.log(String(a));
+// console.log(a.toString(a));
+
+// for in
+// let a="ashwini";
+// for(i in a){
+//     console.log(i);
+// }
+// for of
+// let b="achu";
+// for(i of b) {
+//     console.log(i);
+// }
+
+// console.log("even value is" + 2 + " " + "achu is good" + 10  );
+// console.log(`even value is ${2} and odd value is ${3}`);
+
+// task-1
+// let a="ashwini narlapuram";
+// b="";
+// for(i=0;i<a.length;i++){
+//     if(a[i]!==" "){
+//         b+=a[i]
+//     }
+// }
+// console.log(b)
+
+// task-2
+// let a="happy";
+// b="";
+// for(i=0;i<a.length;i++){
+//     if(a[i]=="p"){
+//         b+="i"
+//     }
+//     else{
+//         b+=a[i];
+//     }
+// }
+// console.log(b)
+// ------------------------------------
+// task-3
+// console.log(5 + + 5);	
+
+// console.log(5 - - 5);	
+
+// console.log(5 + + '5');	
+
+// console.log(5 - - '5');	
+
+// console.log('5' + + 5);	
+
+// console.log('5' - - 5);
+// ---------------------------------------------------------------
+// string methods
+
+// var a="ashwini";
+// // string length
+// console.log(a.length);
+// // string charAt()
+// console.log(a.charAt(3)); 
+// // string charCodeAt()
+// console.log(a.charCodeAt(0));
+// // string slice()
+// console.log(a.slice(1,5));
+// console.log(a.slice(5));
+// // string substring()
+// console.log(a.substring(1,5));
+// // string substring()
+// console.log(a.substr(1,5));
+
+
+// let b="AshWini";
+// // string replace()
+// console.log(b.replace(/w/gi,"v"));
+//  let c="hello";
+// console.log(c.replace(/l/i,"c"));
+// let d="ACHUACHU";
+// // string replaceAll()
+// console.log(d.replaceAll(/A/gi,"a",));
+// let e="  ash wini ";
+// // string trim()
+// console.log(e.trim());
+// // string trimStart()
+// console.log(e.trimStart());
+// // string trimEnd()
+// console.log(e.trimEnd());
+
+// let j="."
+// // string padStart()
+// console.log(j.padStart(4,"w"));
+// // string padEnd()
+// console.log(j.padEnd(4,"w"));
+// let i="ashwini"
+// // string split()
+// console.log(i.split(""));
+// console.log(i.split(","));
+// console.log(i.split("|"));
+// let k="HELLO"
+// let l="ashwini"
+// // string concat()
+// console.log(k.concat(" ",l));
+// // string toLowerCase()
+// console.log(k.toLowerCase());
+// // string toUpperCase()
+// console.log(l.toUpperCase());
+
+// string search
+
+// var a="ashwini";
+
+// console.log(a.indexOf("i"));
+// console.log(a.indexOf("i",5));
+// console.log(a.lastIndexOf("i"));
+// console.log(a.lastIndexOf("i",5));
+
+// console.log(a.search("w"));
+// console.log(a.search("l")); 
+
+// console.log(a.match("i"));
+// console.log(a.match(/i/gi));
+// // console.log(Array.form(a.matchAll("i")));
+
+// console.log(a.includes("h"));
+// console.log(a.includes("i",5));
+
+// console.log(a.startsWith("s",1));
+// console.log(a.startsWith("w",2));
+
+// console.log(a.endsWith("i",6));
+// console.log(a.endsWith("s",1));
+
+
+
+
+
+
+
+// --------------------------------------------------------
+
+// task-1
+
+var a=prompt("enter 10 digits number")
+if(a[0]=="9"||a[0]=="8"||a[0]=="7"||a[0]=="6" && a.length==10){
+   console.log("indian number");
+}
+else{
+   console.log("not indian number");
+}
+
+
+
+// -----------------------------------------------------
+// task-2
+// var a=prompt("enter string")
+// b="";
+// for(i=0;i<a.length;i++){
+//    if(a[i]!==" "){
+//       b+=a[i];
+//    }
+//    else{
+//       b+="";
+//    }
+// }
+// console.log(b);
+// ------------------------------------------------
+// task-3
+
+// var a="@123@45@678@9";
+// b="";
+// for(i=0;i<a.length;i++){
+//    if(a[i]!=="@"){
+//       b+=a[i];
+//    }
+//    else{
+//       b+="";
+//    }
+// }
+// console.log(b);
+// -----------------------------------------------------
+// task-4
+// var a=prompt("enter string")
+// b="";
+// for(i=0;i<a.length;i++){
+//    if(i%2!==0){
+//       b+=a[i];
+//    }
+//    else{
+//       b+="";
+//    }
+// }
+// console.log(b);
+// // ----------------------------------------------------------
+// // task-5
+// var a="bsacaeaha";
+// b=0;
+// for(i=0;i<a.length;i++){
+//    if(a[i]=="a"){
+//       b++;
+//    }
+// }
+// console.log(b);
+// -----------------------------------------------------------
+// task-6
+//  const a=prompt("enter string");
+//  const b="@gmail.com";
+//  console.log(a.includes(b));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   </script> 
+</body>
+</html>
